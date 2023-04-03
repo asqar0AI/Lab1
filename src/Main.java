@@ -8,6 +8,8 @@ public class Main {
         int a, n, k;
         double[] arr;
         String str;
+
+
         switch(id) {
             case 1:
                 n = Solutions.input.nextInt();

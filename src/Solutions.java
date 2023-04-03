@@ -4,7 +4,12 @@ public class Solutions {
     static Scanner input = new Scanner(System.in);
     public static double min(int n, double[] arr)
     {
-        // 1
+        /*
+1)
+           Function on array to find minimum of elements.
+           When the function calls itself, it goes to the previous index & compares two values,
+           it goes to the index (0) and returns the current minimum value for each call of function.
+         */
         if(n == 1)
         {
             return arr[0];
